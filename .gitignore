@@ -1,0 +1,5 @@
+# Local print-layout sources and previews are kept outside the published website.
+/pdf-menu/
+/print-menu.html
+/print-menu.css
+/vkus-print-*.png
