@@ -5,10 +5,27 @@ const empty = document.getElementById('empty');
 const search = document.getElementById('searchInput');
 const filterButtons = Array.from(document.querySelectorAll('.filter'));
 
+const searchIntro = document.createElement('div');
+searchIntro.className = 'category-intro';
+const searchHeading = document.createElement('h3');
+searchHeading.textContent = 'Результаты поиска';
+const searchDescription = document.createElement('p');
+searchIntro.append(searchHeading, searchDescription);
+cards.before(searchIntro);
+
 let activeCategory = 'Все';
 
 function render() {
-  const query = search.value.trim().toLowerCase();
+  const searchText = search.value.trim();
+  const query = searchText.toLowerCase();
+
+  if (query) {
+    activeCategory = 'Все';
+    filterButtons.forEach(btn => btn.classList.toggle('active', btn.dataset.filter === activeCategory));
+  }
+  searchIntro.style.display = query ? 'block' : 'none';
+  searchDescription.textContent = query ? `Результаты по запросу «${searchText}»` : '';
+
   const filtered = items.filter(item => {
     const catOk = activeCategory === 'Все' || item.category === activeCategory;
     const hay = [item.title, item.desc, item.price, item.category].join(' ').toLowerCase();
