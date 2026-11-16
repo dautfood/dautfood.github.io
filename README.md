@@ -1,10 +1,10 @@
 # Даут — проект сайта
 
-Сайт — https://vkusdinara.github.io/menu/
+Сайт — https://dautfood.github.io/
 
-Репозиторий — https://github.com/vkusdinara/menu
+Репозиторий — https://github.com/dautfood/dautfood.github.io
 
-PDF-меню — https://vkusdinara.github.io/menu/downloads/vkus-dinara-menu.pdf
+PDF-меню — https://dautfood.github.io/downloads/vkus-dinara-menu.pdf
 
 Как открыть в VS Code:
 
