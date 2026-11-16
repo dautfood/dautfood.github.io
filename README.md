@@ -1,5 +1,11 @@
 # ВкусДинара — проект сайта
 
+Сайт — https://vkusdinara.github.io/menu/
+
+Репозиторий — https://github.com/vkusdinara/menu
+
+PDF-меню — https://vkusdinara.github.io/menu/downloads/vkus-dinara-menu.pdf
+
 Как открыть в VS Code:
 
 1. Распакуйте ZIP-архив.
