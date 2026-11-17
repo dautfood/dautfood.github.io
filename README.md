@@ -4,7 +4,7 @@
 
 Репозиторий — https://github.com/dautfood/dautfood.github.io
 
-PDF-меню — https://dautfood.github.io/downloads/vkus-dinara-menu.pdf
+PDF-меню — https://dautfood.github.io/downloads/daut-menu.pdf
 
 Как открыть в VS Code:
 
